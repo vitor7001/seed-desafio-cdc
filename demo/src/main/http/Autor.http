@@ -1,0 +1,10 @@
+###criar um novo autor
+POST http://localhost:8080/autores
+Content-Type: application/json
+Accept: application/json
+
+{
+  "nome": "Vitor",
+  "descricao": "Teste",
+  "email": "teste@mail.com"
+}
